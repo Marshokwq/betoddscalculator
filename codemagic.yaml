@@ -17,8 +17,8 @@ workflows:
         bundle_identifier: com.odds.calculator # Замініть на ваш фактичний bundle identifier
       vars:
         BUNDLE_ID: "com.odds.calculator" # Замініть на ваш фактичний bundle identifier
-        XCODE_PROJECT: "Bet Odds Calculate.xcodeproj" # Замініть на ваш фактичну назву Xcode проекту
-        XCODE_SCHEME: "Bet Odds Calculate" # Замініть на ваш фактичну назву Xcode схеми
+        XCODE_PROJECT: "Bet Odds Calculator.xcodeproj" # Замініть на ваш фактичну назву Xcode проекту
+        XCODE_SCHEME: "Bet Odds Calculator" # Замініть на ваш фактичну назву Xcode схеми
       xcode: 26.2
     scripts:
       - name: Set up provisioning profiles settings on Xcode project
